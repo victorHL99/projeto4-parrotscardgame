@@ -1,0 +1,67 @@
+/* desktop resolution*/
+@media (min-width:427px){
+    
+
+    body{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #EEF9BF; 
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    header>h1{
+        display: flex;
+        justify-content: center;
+        width: 540px;
+        height: 63px;
+        margin-top: 40px;
+
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 66px;
+        text-align: center;
+        letter-spacing: -0.004em;
+
+        color: #75b793;
+    }
+
+    main{
+        display: block;
+        justify-content: center;
+        align-items: center;
+
+        margin-left: 122px;
+        margin-right: 116px;
+        margin-top: 47px;
+    }
+
+    .carta {
+        width: 117px;
+        height: 146px;
+
+        margin-top: 34px;
+        margin-right: 34px;
+
+        background-color: #a7e9af;
+
+        border: 1px solid #99cea8;
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+
+    .carta>img {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+    }
+}

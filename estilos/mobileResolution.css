@@ -1,0 +1,59 @@
+/*-- mobile resolution --*/
+
+@media (max-width: 426px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+
+        background-color: #eef9bf;
+    }
+
+    header>h1 {
+        width: 312px;
+        height: 63px;
+        margin-left: 12px;
+        margin-top: 40px;
+
+
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: -0.004em;
+
+        color: #75b793;
+    }
+
+    main {
+        display: block;
+
+        margin-top: 47px;
+        margin-left: 109px;
+        margin-right: 109px;
+    }
+
+    .carta {
+        width: 117px;
+        height: 146px;
+
+        margin-top: 34px;
+
+        background-color: #a7e9af;
+
+        border: 1px solid #99cea8;
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+
+    .carta>img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+    }
+}
+
